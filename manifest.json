@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "full length",
+  "version": "0.1",
+  "description": "take full-page screenshots for design inspo",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
